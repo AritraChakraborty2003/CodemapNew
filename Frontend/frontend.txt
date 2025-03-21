@@ -1,1 +1,1 @@
-This is a front-end
+This is a front-end for codemap service
