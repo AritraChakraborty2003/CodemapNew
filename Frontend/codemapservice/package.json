@@ -9,11 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mantine/core": "^7.17.2",
+    "@mantine/hooks": "^7.17.2",
+    "antd": "^5.24.4",
+    "flowbite-react": "^0.10.2",
     "next": "15.2.3",
     "react": "^19.0.0",
+    "react-chrono": "^2.6.1",
     "react-dom": "^19.0.0",
     "react-fast-marquee": "^1.6.5",
+    "react-horizontal-timeline": "^1.5.3",
+    "react-icons": "^5.5.0",
     "react-parallax-tilt": "^1.7.287",
+    "react-timeline-slider": "^0.0.4",
+    "react-vertical-timeline-component": "^3.5.3",
     "remixicon": "^4.6.0"
   },
   "devDependencies": {

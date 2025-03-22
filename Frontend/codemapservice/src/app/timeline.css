@@ -1,0 +1,10 @@
+.horizontal-timeline {
+  display: flex;
+  flex-direction: row;
+}
+
+.timeline-container {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}

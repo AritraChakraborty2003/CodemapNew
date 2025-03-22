@@ -3,7 +3,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="relative w-screen h-[80vh]">
+    <div className="relative w-screen h-[80vh] lg:h-[77vh]">
       {/* Background Image */}
       <div
         className=" absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -21,7 +21,7 @@ const Banner = () => {
           </p>
         </div>
         <div className="">
-          <p className="leading-10 lg:leading-[7min] lg:w-[47vw] text-3xl font-medium lg:text-6xl text-start ">
+          <p className="leading-10 lg:leading-[7min]  lg:w-[47vw] text-3xl 2xl:text-7xl font-medium lg:text-6xl text-start ">
             Where Creativity Meets Cutting-Edge Technology
           </p>
         </div>
@@ -33,7 +33,12 @@ const Banner = () => {
           </p>
         </div>
 
-        <div className="flex gap-x-10 justify-center items-center">
+        <div
+          className="flex gap-x-12 justify-center items-center"
+          style={{
+            marginTop: "2.35vmin",
+          }}
+        >
           <button
             className="bg-blue-500 text-white"
             style={{

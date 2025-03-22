@@ -20,6 +20,10 @@ const Header = () => {
       link: "/team",
     },
     {
+      label: "Careers",
+      link: "/careers",
+    },
+    {
       label: "Blogs",
       link: "/blogs",
     },

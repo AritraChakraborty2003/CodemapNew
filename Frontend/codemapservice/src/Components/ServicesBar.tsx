@@ -26,9 +26,9 @@ const ServicesBar = () => {
     <div
       className="w-screen flex gap-x-10 bg-blue-500  text-white"
       style={{
-        paddingTop: "3vmin",
-        paddingBottom: "3vmin",
-        paddingLeft: "2vmin",
+        paddingTop: "1.5vmin",
+        paddingBottom: "1.5vmin",
+        paddingLeft: "1.6vmin",
       }}
     >
       <Marquee speed={120} className="flex">
