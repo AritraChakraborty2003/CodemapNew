@@ -46,7 +46,7 @@ function WorkProcess() {
             </a>
           </div>
           <p
-            className=" text-sm "
+            className=" text-sm  text-center"
             style={{
               marginTop: "1vmin",
             }}
@@ -62,7 +62,7 @@ function WorkProcess() {
             </a>
           </div>
           <p
-            className="mr-3 text-sm text-"
+            className=" text-sm text-center"
             style={{
               marginTop: "1vmin",
             }}
@@ -78,7 +78,7 @@ function WorkProcess() {
             </a>
           </div>
           <p
-            className="mr-3 text-sm text-"
+            className="text-center text-sm text-"
             style={{
               marginTop: "1vmin",
             }}

@@ -17,7 +17,7 @@ const WhyUs = () => {
           </p>
 
           <p
-            className="text-white font-semibold text-4xl lg:text-5xl lg:w-[45%] lg:h-[19vmin] leading-14 lg:leading-16"
+            className="text-white font-semibold text-4xl lg:text-5xl 2xl:text-7xl lg:w-[45%] lg:h-[19vmin] leading-14 lg:leading-16 2xl:leading-24"
             style={{
               marginTop: "3vmin",
               marginLeft: "1.65vmin",

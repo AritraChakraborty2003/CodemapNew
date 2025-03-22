@@ -7,6 +7,10 @@
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+input:focus {
+  outline: none;
+}
 @theme {
   --breakpoint-xxs: 22rem;
   --breakpoint-xs: 40rem;
