@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
-
+import Image from "next/image";
 const WhyUs = () => {
   return (
     <>
@@ -38,7 +38,14 @@ const WhyUs = () => {
           </button>
         </div>
         <div className="flex flex-wrap w-screen">
-          <div className="left w-[100vw] lg:h-[60vh] lg:w-[45%] border-1"></div>
+          <div className="left w-[100vw] lg:h-[60vh] lg:w-[45%] border-1 flex justify-center items-center">
+            <div className="hidden lg:block">
+              <Image src={"/whyUs.jpg"} height={550} width={550} alt="Why Us" />
+            </div>
+            <div className="block lg:hidden mt-6">
+              <Image src={"/whyUs.jpg"} height={350} width={350} alt="Why Us" />
+            </div>
+          </div>
           <div className="right w-[100vw] lg:h-[60vh] lg:w-[55%] border-1">
             <div className="flex flex-wrap w-[100%] h-1/2">
               <div className="w-[100%] lg:w-[50%]  border-1">Hi</div>

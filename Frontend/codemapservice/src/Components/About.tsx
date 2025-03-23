@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <div className=" hidden lg:block ">
-        <div className=" flex flex-wrap w-screen pb-10">
+        <div className=" flex flex-wrap w-screen lg:pb-2">
           <div className="left flex justify-center items-center w-[100%] lg:h-[78vh] xl:h-[65vh]  lg:w-1/2">
             <Image
               src="/about_us.jpg"
