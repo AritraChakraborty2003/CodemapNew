@@ -31,7 +31,7 @@ const About = () => {
               <p
                 className="text-[6vmin] font-semibold w-[95%]"
                 style={{
-                  marginTop: "-1vmin",
+                  marginTop: "-2vmin",
                 }}
               >
                 Transforming{" "}
@@ -82,7 +82,7 @@ const About = () => {
       </div>
       {/* The  mobile about section*/}
       <div className="block lg:hidden ">
-        <div className="flex flex-wrap w-screen pb-10">
+        <div className="flex flex-wrap w-screen ">
           <div
             className="left w-[100%]  lg:h-[78vh] lg:w-1/2 flex  justify-center items-center"
             style={{
@@ -138,12 +138,12 @@ const About = () => {
                 digital dream
               </p>
 
-              <div className="infoHolder flex mt-6">
-                <div className="flex flex-col gap-y-3 box1 w-[32%] p-2 border-r-1  justify-center items-center">
+              <div className="infoHolder flex mt-2 lg:mt-6">
+                <div className="flex flex-col gap-y-3 box1 w-[32%] p-2 border-r-[0.5px]  justify-center items-center">
                   <p className="text-blue-600 text-xl">50+</p>
                   <p className="text-gray-800 text-[2.75vmin] ">Projects</p>
                 </div>
-                <div className="flex flex-col gap-y-3  box1 w-[32%] p-2  border-r-1 justify-center items-center">
+                <div className="flex flex-col gap-y-3  box1 w-[32%] p-2  border-r-[0.5px] justify-center items-center">
                   <p className="text-blue-600 text-xl">4+</p>
                   <p className="text-gray-800 text-[2.75vmin] ">
                     Years of Experience

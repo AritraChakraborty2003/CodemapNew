@@ -69,7 +69,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="w-[100%] lg:w-[60%] h-[70vh] xl:ml-6">
+        <div className="w-[100%] lg:w-[60%] lg:h-[70vh] xl:ml-6">
           <p
             style={{
               marginTop: "3vmin",
@@ -79,7 +79,7 @@ const ContactUs = () => {
             //&nbsp; Contact Us
           </p>
           <p
-            className="text-black font-extrabold text-5xl h-[27vmin] lg:h-[10vmin]"
+            className="text-black font-extrabold text-[9vmin] lg:text-5xl h-[27vmin] lg:h-[10vmin]"
             style={{
               marginTop: "1vmin",
               marginLeft: "1.75vmin",
@@ -88,8 +88,53 @@ const ContactUs = () => {
             Get Your <span className="text-blue-600"> Free Quote</span> Today!
           </p>
 
-          <div className="formHolder">
+          <div className="formHolder ml-3 lg:ml-0">
             <div className="holder1">
+              <div className="flex flex-wrap gap-x-6 gap-y-5">
+                <div>
+                  <p
+                    className=""
+                    style={{
+                      marginLeft: "1.75vmin",
+                    }}
+                  >
+                    Your name *
+                  </p>
+                  <input
+                    type="text"
+                    className="inputField rounded-md bg-gray-200 w-[90vw] lg:w-[45vmin]"
+                    placeholder="Ex. John Doe"
+                    style={{
+                      padding: "1.2vmin",
+                      marginTop: "1.5vmin",
+                      marginLeft: "1.75vmin",
+                    }}
+                  />
+                </div>
+                <div>
+                  <p
+                    className=""
+                    style={{
+                      marginLeft: "1.75vmin",
+                    }}
+                  >
+                    Your name *
+                  </p>
+                  <input
+                    type="text"
+                    className="inputField rounded-md bg-gray-200 w-[90vw] lg:w-[45vmin]"
+                    placeholder="Ex. John Doe"
+                    style={{
+                      padding: "1.2vmin",
+                      marginTop: "1.5vmin",
+                      marginLeft: "1.75vmin",
+                    }}
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="holder1 mt-4">
               <div className="flex flex-wrap gap-x-6 gap-y-5">
                 <div>
                   <p
@@ -137,69 +182,11 @@ const ContactUs = () => {
             <div
               className="holder1"
               style={{
-                marginTop: "3.5vmin",
-              }}
-            >
-              <div className="flex flex-wrap gap-x-6">
-                <div>
-                  <p
-                    className=""
-                    style={{
-                      marginLeft: "1.75vmin",
-                    }}
-                  >
-                    Your name *
-                  </p>
-                  <input
-                    type="text"
-                    className="inputField rounded-md bg-gray-200 w-[90vw] lg:w-[45vmin]"
-                    placeholder="Ex. John Doe"
-                    style={{
-                      padding: "1.2vmin",
-                      marginTop: "1.5vmin",
-                      marginLeft: "1.75vmin",
-                    }}
-                  />
-                </div>
-                <div>
-                  <p
-                    className=""
-                    style={{
-                      marginLeft: "1.75vmin",
-                    }}
-                  >
-                    Your name *
-                  </p>
-                  <input
-                    type="text"
-                    className="inputField rounded-md bg-gray-200  w-[90vw] lg:w-[45vmin]"
-                    placeholder="Ex. John Doe"
-                    style={{
-                      padding: "1.2vmin",
-                      marginTop: "1.5vmin",
-                      marginLeft: "1.75vmin",
-                    }}
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              className="holder1"
-              style={{
                 marginTop: "2.5vmin",
               }}
             >
               <textarea
-                className="bg-gray-200 h-[15vmin] w-[90%] lg:h-[20vmin] lg:w-[90%] xl:w-[75%]"
-                style={{
-                  padding: "1.2vmin",
-                  marginTop: "1.5vmin",
-                  marginLeft: "1.75vmin",
-
-                  resize: "none",
-                  marginBottom: "3vmin",
-                  borderRadius: "5px",
-                }}
+                className="bg-gray-200 h-[28vmin] w-[93%] lg:h-[20vmin] lg:w-[90%] xl:w-[75%] mt-5 ml-1 lg:ml-2 rounded-lg lg:mt-6 lg:p-3 p-2"
                 placeholder="Your Message"
               />
             </div>
