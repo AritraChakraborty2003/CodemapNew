@@ -48,14 +48,28 @@ const ContactUs = () => {
 
               <div className="contactHolder flex flex-col gap-y-3">
                 <p className="text-white font-bold">Stay Connected</p>
-                <div>
-                  <p>Monday-Friday: 24/7 hours open</p>
+                <div className="icons flex gap-x-8 mt-5">
+                  <a href="">
+                    <i className="ri-facebook-circle-line text-white text-2xl"></i>
+                  </a>
+                  <a href="">
+                    <i className="ri-twitter-x-fill text-white text-2xl"></i>
+                  </a>
+                  <a href="">
+                    <i className="ri-instagram-line text-white text-2xl"></i>
+                  </a>
+                  <a href="">
+                    <i className="ri-twitter-x-fill text-white text-2xl"></i>
+                  </a>
+                  <a href="">
+                    <i className="ri-linkedin-box-fill text-white text-2xl"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="w-[100%] lg:w-[60%] h-[70vh]">
+        <div className="w-[100%] lg:w-[60%] h-[70vh] xl:ml-6">
           <p
             style={{
               marginTop: "3vmin",
@@ -176,7 +190,7 @@ const ContactUs = () => {
               }}
             >
               <textarea
-                className="bg-gray-200 h-[15vmin] w-[90%] lg:h-[20vmin] lg:w-[90%]"
+                className="bg-gray-200 h-[15vmin] w-[90%] lg:h-[20vmin] lg:w-[90%] xl:w-[75%]"
                 style={{
                   padding: "1.2vmin",
                   marginTop: "1.5vmin",

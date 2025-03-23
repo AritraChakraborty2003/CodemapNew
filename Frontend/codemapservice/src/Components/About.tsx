@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <div className=" hidden lg:block ">
-        <div className=" flex flex-wrap w-screen pb-10">
+        <div className=" flex flex-wrap w-screen pb-10 xl:pt-10">
           <div className="left flex justify-center items-center w-[100%] lg:h-[78vh] xl:h-[65vh]  lg:w-1/2">
             <Image
               src="/about_us.jpg"
@@ -54,17 +54,23 @@ const About = () => {
                 }}
               >
                 <div className="flex flex-col gap-y-3 box1 w-[30%] h-[10vmin] border-r-1  justify-center items-center">
-                  <p className="text-blue-600 text-3xl 2xl:text-4xl">50+</p>
+                  <p className="text-blue-600 text-3xl 2xl:text-4xl overflow-y-hidden">
+                    50+
+                  </p>
                   <p className="text-gray-800 text-sm 2xl:text-xl ">Projects</p>
                 </div>
                 <div className="flex flex-col gap-y-3  box1 w-[30%] h-[10vmin] border-r-1 justify-center items-center">
-                  <p className="text-blue-600 text-3xl 2xl:text-4xl">4+</p>
+                  <p className="text-blue-600 text-3xl 2xl:text-4xl overflow-y-hidden">
+                    4+
+                  </p>
                   <p className="text-gray-800 text-sm 2xl:text-xl">
                     Years of Experience
                   </p>
                 </div>
                 <div className="flex flex-col gap-y-3 box1 w-[30%] h-[10vmin]  justify-center items-center">
-                  <p className="text-blue-600 text-3xl 2xl:text-4xl">99%</p>
+                  <p className="text-blue-600 text-3xl 2xl:text-4xl overflow-y-hidden">
+                    99%
+                  </p>
                   <p className="text-gray-800 text-sm 2xl:text-xl ">
                     Client Satisfaction Rate
                   </p>
