@@ -2,7 +2,6 @@
 @import "remixicon/fonts/remixicon.css";
 
 * {
-  box-sizing: border-box;
   overflow-x: hidden;
 }
 

@@ -21,7 +21,9 @@ export default function Home() {
       <Banner />
       <ServicesBar />
       <About />
+
       <Services />
+
       <div className="hidden lg:block">
         <WorkProcess />
       </div>
@@ -31,6 +33,9 @@ export default function Home() {
       <WhyUs />
       <OurProjects />
       <ContactUs />
+      <div style={{ marginTop: "1vmin" }}>
+        <ServicesBar />
+      </div>
       <FAQComponent />
       <NewsLetter />
       <Footer />
