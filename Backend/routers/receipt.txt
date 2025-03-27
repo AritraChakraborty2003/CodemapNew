@@ -1,0 +1,14 @@
+*** PURCHASE RECEIPT ***
+Order ID: ORD123456
+Date: 26 March 2025
+Customer: John Doe
+--------------------------------------
+Items:
+Laptop (x1) - Rs.75000
+Mouse (x2) - Rs.1500
+Keyboard (x1) - Rs.2500
+--------------------------------------
+Total Amount: Rs.81500
+Payment Method: Credit Card
+--------------------------------------
+Thank you for shopping with us!
