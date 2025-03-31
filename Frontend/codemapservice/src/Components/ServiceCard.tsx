@@ -10,11 +10,11 @@ interface ServiceCardProps {
 const ServiceCard: React.FC<ServiceCardProps> = (props) => {
   return (
     <>
-      <div className="w-[78%] lg:w-1/4 pb-4 lg:h-[38vmin] bg-white text-black rounded-xl p-5 border-blue-500 hover:border-b-4">
+      <div className="w-[78%] lg:w-1/4 pb-4 lg:h-[38vmin] 2xl:h-[30vmin] bg-white text-black rounded-xl p-5 border-blue-500 hover:border-b-4">
         <div className="imageHolder">
           <Image src={props.image} alt="web dev" height={80} width={80} />
         </div>
-        <h3 className="font-medium mt-2 font-medium text-md lg:text-2xl">
+        <h3 className="font-medium mt-2 text-md lg:text-2xl">
           {props.service}
         </h3>
         <p className="text-[3.45vmin] lg:text-xs text-gray-500 mt-2 leading-5 font-normal">

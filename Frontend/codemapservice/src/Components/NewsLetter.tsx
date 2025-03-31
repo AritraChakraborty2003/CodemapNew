@@ -4,7 +4,7 @@ import React from "react";
 const NewsLetter = () => {
   return (
     <>
-      <div className="newsletter flex flex-col justify-center items-center p-4 gap-y-4 w-screen">
+      <div className="mt-[-3vmin] lg:mt-0 pb-8 bg-slate-50 newsletter flex flex-col justify-center items-center p-4 gap-y-4 w-screen">
         <p>
           <span className="text-blue-600">//</span>&nbsp;Our Newsletter
         </p>
@@ -19,7 +19,7 @@ const NewsLetter = () => {
               placeholder="Your Email Here..."
               className=" border-gray-300 border-1 w-[80%] lg:w-[50%] rounded-2xl"
               style={{
-                padding: "1.45vmin",
+                padding: "1.95vmin",
               }}
             />
 

@@ -1,14 +1,7 @@
 function WorkProcess() {
   return (
     <>
-      <p
-        className="text-center"
-        style={{
-          marginTop: "4vmin",
-        }}
-      >
-        // Our Work Process
-      </p>
+      <p className="text-center">// Our Work Process</p>
       <p
         className="text-center text-2xl lg:text-5xl font-semibold overflow-hidden"
         style={{

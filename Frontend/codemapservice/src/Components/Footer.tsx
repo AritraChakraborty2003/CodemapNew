@@ -4,13 +4,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <div
-        style={{
-          marginTop: "6vmin",
-          paddingBottom: "5vmin",
-        }}
-        className=" bg-blue-950 text-white"
-      >
+      <div className="pb-5 bg-blue-950 text-white">
         <div className="headerArea  h-[15vmin] flex justify-evenly items-center">
           <div className="w-[78%] ">
             <p className="hidden lg:block text-white lg:text-[5.5vmin] font-medium">
@@ -42,12 +36,7 @@ const Footer = () => {
             className="w-[96vw] optionsHolder flex flex-wrap gap-x-1"
           >
             {" "}
-            <div
-              style={{
-                marginTop: "3vmin",
-              }}
-              className="w-[100vw] lg:w-[30%] flex flex-col gap-y-8 justify-center items-center"
-            >
+            <div className="mt-[-2vmin] lg:mt-[3vmin] w-[100vw] lg:w-[30%] flex flex-col gap-y-8 justify-center items-center">
               <Image
                 src="https://codemap.online/CodemapIconHorizontal.0a8c5128.png"
                 alt="Logo"

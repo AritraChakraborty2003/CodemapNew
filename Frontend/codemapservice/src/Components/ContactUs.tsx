@@ -69,7 +69,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="w-[100%] lg:w-[60%] lg:h-[70vh] xl:ml-6">
+        <div className="w-[100%] lg:w-[60%] lg:h-[70vh] xl:ml-6 pb-6">
           <p
             style={{
               marginTop: "3vmin",

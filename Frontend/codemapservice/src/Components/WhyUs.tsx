@@ -54,10 +54,10 @@ const WhyUs = () => {
                     </a>
                   </div>
                   <div>
-                    <p className="text-2xl">Affordable Price</p>
+                    <p className="text-xl lg:text-2xl">Affordable Price</p>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-300 w-[92%] lg:w-[75%] text-center lg:text-start">
+                    <p className="text-xs lg:text-sm text-gray-300 w-[90%] lg:w-[75%] text-center lg:text-start">
                       We provide top notch IT solutions to our clients at
                       affordable price
                     </p>
@@ -72,10 +72,10 @@ const WhyUs = () => {
                     </a>
                   </div>
                   <div>
-                    <p className="text-2xl">Professional Team</p>
+                    <p className="text-xl lg:text-2xl">Professional Team</p>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-300 w-[92%] lg:w-[75%] text-center lg:text-start">
+                    <p className="text-xs lg:text-sm text-gray-300 w-[90%] lg:w-[75%] text-center lg:text-start">
                       We have a dedicated and skilled IT team to help you
                       achieve your goals
                     </p>
@@ -93,10 +93,12 @@ const WhyUs = () => {
                     </a>
                   </div>
                   <div>
-                    <p className="text-2xl">4+ Years of Experience</p>
+                    <p className="text-xl lg:text-2xl">
+                      4+ Years of Experience
+                    </p>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-300 w-[92%] lg:w-[75%] text-center lg:text-start">
+                    <p className="text-xs lg:text-sm text-gray-300 w-[90%] lg:w-[75%] text-center lg:text-start">
                       We have been providing top notch IT solutions for over 4
                       years
                     </p>
@@ -111,10 +113,10 @@ const WhyUs = () => {
                     </a>
                   </div>
                   <div>
-                    <p className="text-2xl">Professional Team</p>
+                    <p className="text-xl lg:text-2xl">Professional Team</p>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-300 w-[92%] lg:w-[75%] text-center lg:text-start">
+                    <p className="text-xs lg:text-sm text-gray-300 w-[90%] lg:w-[75%] text-center lg:text-start">
                       We have a dedicated and skilled IT team to help you
                       achieve your goals
                     </p>

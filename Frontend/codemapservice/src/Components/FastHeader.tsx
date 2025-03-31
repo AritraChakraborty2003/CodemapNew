@@ -14,7 +14,7 @@ const FastHeader = () => {
         }}
         speed={80}
       >
-        <div className="flex gap-x-2">
+        <div className="flex gap-x-2 text-xs lg:text-[1.75vmin]">
           <p>The Best IT solutions Company in India &nbsp;|</p>
           <p>Trusted by 100+ clients &nbsp;|</p>
           <p>Top-rated customer reviews &nbsp;|</p>

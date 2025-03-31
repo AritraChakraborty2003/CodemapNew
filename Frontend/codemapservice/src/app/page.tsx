@@ -11,6 +11,7 @@ import ContactUs from "@/Components/ContactUs";
 import FAQComponent from "@/Components/FAQComponent";
 import NewsLetter from "@/Components/NewsLetter";
 import Footer from "@/Components/Footer";
+import WorkMobile from "@/Components/WorkMobile";
 // Minified to reduce conflicts
 
 export default function Home() {
@@ -26,6 +27,10 @@ export default function Home() {
 
       <div className="hidden lg:block">
         <WorkProcess />
+      </div>
+
+      <div className="block lg:hidden">
+        <WorkMobile />
       </div>
       <div style={{ marginTop: "5vmin" }}>
         <ServicesBar />
