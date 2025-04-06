@@ -69,7 +69,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="w-[100%] lg:w-[60%] lg:h-[70vh] xl:ml-6 pb-6">
+        <div className="w-[100%] lg:w-[60%] xl:ml-6 pb-6">
           <p
             style={{
               marginTop: "3vmin",
@@ -190,6 +190,16 @@ const ContactUs = () => {
                 placeholder="Your Message"
               />
             </div>
+          </div>
+          <div
+            className=" flex justify-center items-center"
+            style={{
+              marginTop: "1.85vmin",
+            }}
+          >
+            <button className="bg-blue-600 text-white p-3 w-[25vmin] rounded-md">
+              Submit
+            </button>
           </div>
         </div>
       </div>

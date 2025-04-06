@@ -1,10 +1,11 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
+"use client";
 import React from "react";
 import ServiceCard from "./ServiceCard";
-
+// import { motion } from "framer-motion";
 const Services = () => {
   return (
-    <div className="bg-slate-100 w-screen lg:h-[75vh] overflow-hidden pt-6 pb-6 lg:pt-4 lg:pb-8">
+    <div className="bg-slate-100 w-screen lg:h-[78vh] overflow-hidden pt-6 pb-6 lg:pt-4 lg:pb-8">
       <div className="flex flex-col flex-wrap justify-center gap-y-5 2-[100%] ">
         <div className="flex w-[100%] ">
           <div className="headerArea w-[70%] lg:w-[80%]">

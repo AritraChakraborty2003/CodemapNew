@@ -30,22 +30,26 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="btnHolder w-[95vw]  flex justify-end">
-          <button className="bg-blue-600 text-white rounded-3xl mt-[1vmin] lg:mt-0 text-xs p-3 lg:p-3  lg:text-lg">
+        {/* <div className="btnHolder w-[95vw]  flex justify-end">
+          <button className="bg-blue-600 w-[25vmin] text-white rounded-lg mt-[1vmin] lg:mt-0 text-xs p-3 lg:p-3  lg:text-lg">
             Get a Qoute
           </button>
-        </div>
+        </div> */}
         <div className="flex flex-wrap w-screen">
-          <div className="left w-[100vw] lg:h-[60vh] lg:w-[45%]  flex justify-center items-center">
-            <div className="hidden lg:block">
+          <div className="left w-[100vw]  lg:w-[45%]  flex flex-col justify-center items-center  gap-y-9">
+            <div className="hidden lg:block ml-3">
               <Image src={"/whyUs.jpg"} height={600} width={600} alt="Why Us" />
             </div>
             <div className="block lg:hidden mt-6">
               <Image src={"/whyUs.jpg"} height={320} width={320} alt="Why Us" />
             </div>
+
+            <button className="hidden lg:block bg-blue-600 w-[20vmin] ml-3  text-white rounded-lg mt-[1vmin] lg:mt-0 text-xs p-3 lg:p-3  lg:text-lg">
+              Get a Qoute
+            </button>
           </div>
           <div className="right w-[100vw] lg:h-[60vh] lg:w-[55%]">
-            <div className="flex flex-wrap w-[100%] lg:h-1/2">
+            <div className="flex flex-wrap w-[100%] lg:h-1/2  lg:ml-6">
               <div className="w-[100%] lg:w-[45%]   text-white h-[100%] pl-4">
                 <div className="holder flex flex-col gap-y-4 justify-center items-center lg:items-start h-full mt-8 lg:mt-0">
                   <div>
@@ -85,7 +89,7 @@ const WhyUs = () => {
             </div>
 
             <div className="flex flex-wrap w-[100%] lg:h-1/2">
-              <div className="w-[100%] lg:w-[45%]   text-white h-[100%] pl-4">
+              <div className="w-[100%] lg:w-[45%]   text-white h-[100%] pl-4  lg:ml-6">
                 <div className="holder flex flex-col gap-y-4 justify-center items-center lg:items-start h-full  mt-8 lg:mt-0">
                   <div>
                     <a>

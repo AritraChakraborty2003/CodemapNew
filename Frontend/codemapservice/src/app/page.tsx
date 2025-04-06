@@ -12,6 +12,9 @@ import FAQComponent from "@/Components/FAQComponent";
 import NewsLetter from "@/Components/NewsLetter";
 import Footer from "@/Components/Footer";
 import WorkMobile from "@/Components/WorkMobile";
+import Techstack from "@/Components/Techstack";
+import PricingPage from "@/Components/PricingPage";
+
 // Minified to reduce conflicts
 
 export default function Home() {
@@ -37,10 +40,16 @@ export default function Home() {
       </div>
       <WhyUs />
       <OurProjects />
+
+      <Techstack />
+
+      <ServicesBar />
+      <PricingPage />
       <ContactUs />
       <div style={{ marginTop: "1vmin" }}>
         <ServicesBar />
       </div>
+
       <FAQComponent />
       <NewsLetter />
       <Footer />

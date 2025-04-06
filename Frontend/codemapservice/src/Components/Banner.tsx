@@ -3,7 +3,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="relative w-screen h-[80vh] lg:h-[77vh]">
+    <div className="relative w-screen h-[80vh] lg:h-[78vh]">
       {/* Background Image */}
       <div
         className=" absolute inset-0 bg-cover bg-center bg-no-repeat"
